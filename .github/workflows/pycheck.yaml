@@ -9,6 +9,3 @@ jobs:
     steps:
       - name: pycodestyle
         uses: andymckay/pycodestyle-action@0.1.3
-      
-      - name: Run Check
-        run: pycodestyle daily_log.py --format=pylint
