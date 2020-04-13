@@ -18,10 +18,10 @@ can = canvas.Canvas(packet, pagesize=A4)
 can.setFont("Helvetica", 12)
 x = 73.25
 
-day = input("Enter day: ")
+day = input("Enter day: "
 can.drawString(105, 630.2060642678908, day)
 
-date = input("Enter Date: ")
+date = input("Enter Date:
 can.drawString(385.64999, 630.2060642678908, date)
 
 
